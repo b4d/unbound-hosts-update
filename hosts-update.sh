@@ -4,8 +4,8 @@ DIR=/var/unbound
 FILENAME=ads.conf
 
 echo -e "Backing up old generated file..."
-rm -v $DIR/$FILENAME-old
-cp -v $DIR/$FILENAME $DIR/$FILENAME-old
+#rm -v $DIR/$FILENAME-old
+cp -vbu $DIR/$FILENAME $DIR/$FILENAME-old
 echo
 
 #echo -e "Removing old source file..."
